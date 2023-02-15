@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/83c9a17d84.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'poppins',sans-serif;
+        /* overflow: hidden; */
+    }
+    header{
+        width: 100vw;
+        height: 50vh;
+    }
+    h2{
+        position: relative;
+        left: 11%;
+        margin-bottom: 50px;
+    }
+    .list{
+        display: flex;
+        justify-content: space-around;
+    }
+    .list li{
+        list-style: none;
+        color: black;
+        margin-bottom:25px;
+        
+        
+    }
+    .second a{
+        text-decoration: none;
+        color: black;
+        padding-bottom: 10px;
+    }
+    .second a i{
+        padding-right: 5px;
+    }
+    .list-header{
+        font-weight: 600;
+        font-size: larger;
+    }
+    p{
+        text-align: center;
+        padding: 50px;
+    }
+    .second a:active{
+        color: blue;
+    }
+    @media(max-width:500px){
+        
+        .list{
+            display: grid;
+            grid-template-columns: max-content;
+            
+            
+        }
+        .list ul{
+            border-bottom: 1px solid black;
+            margin-bottom: 5px;
+            width: fit-content;
+        }
+    }
+</style>
+<body>
+    <header></header>
+    <footer class="last">
+        <h2>ABCDEF &trade;</h2>
+        <div class="list">
+            <ul class="first">
+                <li class="list-header">Services</li>
+                <li>App development</li>
+                <li>Web development</li>
+                <li>Devops</li>
+                <li>Web designing</li>
+            </ul>
+            <ul class="second">
+                <li class="list-header">Social</li>
+                <li><a href="https://www.linkedin.com/" ><i class="fa-brands fa-linkedin"></i>LinkDin</a></li>
+                <li><a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i>Twitter</a></li>
+                <li><a href="http://ww1.githum.com/"><i class="fa-brands fa-github"></i>Github</a></li>
+                <li><a href="https://codepen.io/features/"><i class="fa-brands fa-codepen"></i>Codepen</a></li>
+                <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i>instagram</a></li>
+            </ul>
+            <ul class="third">
+                <li class="list-header">Quick links</li>
+                <li>Home</li>
+                <li>About</li>
+                <li>Blogs</li>
+                <li>Contant</li>
+            </ul>
+            <ul class="forth">
+                <li class="list-header">Address</li>
+                <li> DN&H,Silvassa</li>
+                <li class="list-header">Mobile</li>
+                <li>8766458309</li>
+                <li class="list-header">Email</li>
+                <li>abc@gmail.com</li>
+            </ul>
+        </div>
+        <hr>
+        <p>&copy 2021 Ineuron Technologies Pvt. Ltd.</p>
+    </footer>
+</body>
+</html>
